@@ -32,12 +32,20 @@ const WorkExperience = () => {
                   <section>
                     <div className="flex items-center gap-1">
                       <h1 className="font-bold"> {exp.company} </h1>
-                      {isHovered === exp.id && (
+                      {(isHovered === exp.id || selectedId === exp.id) && (
                         <img
                           data-aos="zoom-in"
-                          src="./icon/chevron-right.svg"
-                          alt="Chevron Right"
-                          className="h-4  "
+                          src={
+                            selectedId === exp.id
+                              ? "./icon/chevron-down.svg"
+                              : "./icon/chevron-right.svg"
+                          }
+                          alt={
+                            selectedId === exp.id
+                              ? "Chevron Down"
+                              : "Chevron Right"
+                          }
+                          className="h-4 transition-transform duration-300"
                         />
                       )}
                     </div>
