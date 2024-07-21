@@ -9,7 +9,7 @@ const TechStack = () => {
           {TechStackData.map((tech, index) => (
             <section
               key={index}
-              className="font-bold bg-[#171717] text-white px-3  w-fit text-center  rounded-md text-[0.75rem] hover:bg-[#454545] transition-transform duration-300  hover:select-text"
+              className="font-bold bg-[#171717] text-white px-3 py-[0.2rem]  w-fit text-center  rounded-md text-[0.75rem] hover:bg-[#454545] transition-transform duration-300  hover:select-text"
             >
               <h1>{tech} </h1>
             </section>
