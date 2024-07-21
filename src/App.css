@@ -2,8 +2,10 @@
 body {
   font-family: "Rubik", sans-serif;
 }
-.fade-right {
-  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-  opacity: 0;
-  transform: translateX(10px);
+
+html {
+  scroll-behavior: smooth;
+}
+section {
+  scroll-margin-top: 2rem; /* Adjust this value to match your navbar height */
 }
