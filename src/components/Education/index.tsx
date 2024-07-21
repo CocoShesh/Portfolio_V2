@@ -9,7 +9,7 @@ const Education = () => {
 
   return (
     <>
-      <section className="mt-10 pb-32 text-sm max-sm:text-xs">
+      <section className="mt-10  text-sm max-sm:text-xs">
         <h3 className="font-bold text-2xl mb-1">Education </h3>
 
         {EducationData.map(educ => {
