@@ -11,7 +11,7 @@ const WorkExperience = () => {
 
   return (
     <>
-      <section className="mt-10 text-sm max-sm:text-xs">
+      <section id="work" className="mt-10 text-sm max-sm:text-xs">
         <h3 className="font-bold text-2xl mb-1"> Work Experience</h3>
         {Work.map(exp => {
           return (
