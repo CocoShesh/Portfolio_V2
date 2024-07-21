@@ -1,12 +1,15 @@
 const Hero = () => {
   return (
     <>
-      <section className="flex items-center justify-center  mt-16 gap-5 ">
+      <section
+        id="home"
+        className="flex items-center justify-center  mt-16 gap-5 "
+      >
         <section className="w-full  ">
-          <h1 className="  font-bold text-5xl max-sm:text-3xl">
+          <h1 className="  font-bold text-5xl max-sm:text-3xl max-xs:text-2xl">
             Hi, I'm Glenard 👋
           </h1>
-          <p className="text-xl text-[#353637] mt-2 max-sm:text-sm">
+          <p className="text-xl text-[#353637] mt-2 max-sm:text-sm max-xs:text-xs">
             Passion-driven and dedicated to creating websites. I am eager to
             apply my extensive knowledge in web development to craft innovative
             and user-friendly online experiences.
