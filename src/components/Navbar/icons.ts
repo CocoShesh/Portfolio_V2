@@ -1,14 +1,14 @@
 interface Link {
   title: string;
   src: string;
-  link: string;
+  link?: string;
 }
 
 export const Navlinks: Link[] = [
   {
     title: "Home",
     src: "./icon/house.svg",
-    link: "#about",
+    link: "#home",
   },
   {
     title: "Work Experience",
@@ -31,21 +31,20 @@ export const SocialLinks: Link[] = [
   {
     title: "Github",
     src: "./icon/github.svg",
-    link: "/",
+    link: "https://github.com/CocoShesh",
   },
   {
     title: "Linkedin",
     src: "./icon/linkedin.svg",
-    link: "/",
+    link: "https://www.linkedin.com/in/glenard-refamonte-875328282/",
   },
   {
     title: "Facebook",
     src: "./icon/facebook.svg",
-    link: "/",
+    link: "https://www.facebook.com/your.nard/",
   },
   {
     title: "Instagram",
     src: "./icon/twitter.svg",
-    link: "/",
   },
 ];
