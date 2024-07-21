@@ -31,11 +31,19 @@ const Education = () => {
                   <section>
                     <div className="flex items-center gap-1">
                       <h1 className="font-bold"> {educ.name} </h1>
-                      {isHovered === educ.id && (
+                      {(isHovered === educ.id || selectedId === educ.id) && (
                         <img
                           data-aos="zoom-in"
-                          src="./icon/chevron-right.svg"
-                          alt="Chevron Right"
+                          src={
+                            selectedId === educ.id
+                              ? "./icon/chevron-down.svg"
+                              : "./icon/chevron-right.svg"
+                          }
+                          alt={
+                            selectedId === educ.id
+                              ? "Chevron Down"
+                              : "Chevron Right"
+                          }
                           className="h-4  "
                         />
                       )}
