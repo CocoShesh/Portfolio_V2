@@ -6,21 +6,25 @@ const Navbar = () => {
         <section className="flex border-r-2 pr-1">
           {Navlinks.map(link => (
             <section key={link.title} className="flex  py-1">
-              <section
-                title={link.title}
-                className="rounded-full h-full w-full flex items-center justify-center cursor-pointer px-3  hover:bg-[#f5f5f5] hover:scale-110"
-              >
-                <img src={link.src} alt={link.title} className="h-5" />
-              </section>
+              <a href={link.link}>
+                <section
+                  title={link.title}
+                  className="rounded-full h-full w-full flex items-center justify-center cursor-pointer px-3  hover:bg-[#f5f5f5] hover:scale-110"
+                >
+                  <img src={link.src} alt={link.title} className="h-5" />
+                </section>
+              </a>
             </section>
           ))}
         </section>
         <section className="flex  border-r-2 px-1">
           {SocialLinks.map(link => (
             <section key={link.title} className="flex  py-1">
-              <section className="rounded-full h-full w-full flex items-center justify-center cursor-pointer px-3  hover:bg-[#f5f5f5] hover:scale-110">
-                <img src={link.src} alt={link.title} className="h-5" />
-              </section>
+              <a href={link.link} target="_blank">
+                <section className="rounded-full h-full w-full flex items-center justify-center cursor-pointer px-3  hover:bg-[#f5f5f5] hover:scale-110">
+                  <img src={link.src} alt={link.title} className="h-5" />
+                </section>
+              </a>
             </section>
           ))}
         </section>
