@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/About";
+import Contacts from "./components/Contacts";
 import Education from "./components/Education";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -18,6 +19,7 @@ function App() {
           <Education />
           <TechStack />
           <Projects />
+          <Contacts />
         </section>
         <Navbar />
       </main>
