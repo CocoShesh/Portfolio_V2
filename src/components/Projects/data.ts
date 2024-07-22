@@ -67,7 +67,14 @@ export const projects: ProjectData[] = [
     src: "/Preview/Weather-Preview.png",
     descriptions:
       "My weather app, utilizing weatherapi.com, provides current weather and weekly forecasts. offering toggling between Celsius and Fahrenheit, alongside a dark mode option for comfortable viewing in any lighting. ",
-    techStack: ["React Js", "Tailwind Css", "Api"],
+    techStack: [
+      "React Js",
+      "Tailwind Css",
+      "Api",
+      "Axios",
+      "Dotenv",
+      "React Hot Toast",
+    ],
   },
   {
     id: 7,
