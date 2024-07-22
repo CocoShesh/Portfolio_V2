@@ -57,7 +57,7 @@ const WorkExperience = () => {
               {selectedId === exp.id && (
                 <section
                   data-aos="fade-zoom-in"
-                  className="pl-[4.4rem] text-[#424853]"
+                  className="pl-[4.4rem] text-[#424853] dark:text-[#a09f9f] "
                 >
                   {exp.responsibilities}
                 </section>
