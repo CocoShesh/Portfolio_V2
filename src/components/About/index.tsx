@@ -3,7 +3,7 @@ const About = () => {
     <>
       <section className="mt-10">
         <h3 className="font-bold text-2xl mb-1"> About</h3>
-        <p className="text-[#8a8a8a]">
+        <p className="text-[#8a8a8a] ">
           As a graduate of a {""}
           <span className="text-[#424853] dark:text-white font-semibold underline">
             Bachelor of Science in Information Technology (BSIT),
