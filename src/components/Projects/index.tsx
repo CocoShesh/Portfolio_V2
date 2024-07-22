@@ -1,13 +1,14 @@
 import { projects } from "./data";
-
+import { useTheme } from "../../Context/ThemeContext";
 const Projects = () => {
+  const { theme } = useTheme();
   return (
     <>
       <section
         id="projects"
         className="mt-16  text-center text-sm max-sm:text-xs"
       >
-        <span className=" bg-black text-white px-3 py-1 rounded-md  mb-1">
+        <span className=" bg-black dark:bg-white dark:text-black text-white px-3 py-1 rounded-md  mb-1">
           My Projects{" "}
         </span>
         <h1 className="text-5xl font-semibold mt-3">
@@ -19,7 +20,10 @@ const Projects = () => {
         </h1>
         <section className="grid grid-cols-2 gap-3 max-sm:grid-cols-1 mt-5">
           {projects.map(list => (
-            <section key={list.id} className=" border text-left  rounded-md">
+            <section
+              key={list.id}
+              className=" border dark:border-[#1a1b1b] text-left  cursor-pointer rounded-md"
+            >
               <img
                 src={list.src}
                 alt=""
@@ -32,7 +36,7 @@ const Projects = () => {
                   {list.techStack.map(tech => (
                     <span
                       key={tech}
-                      className="bg-[#f7f7f7]  font-medium px-2 py-1 text-xs rounded-md"
+                      className="bg-[#f7f7f7]  font-medium  dark:bg-[#202020] px-2 py-1 text-xs rounded-md"
                     >
                       {tech}
                     </span>
@@ -42,18 +46,24 @@ const Projects = () => {
                   <a
                     href={list.liveLink}
                     target="_blank"
-                    className="px-2 py-1 text-xs flex gap-1 items-center hover:bg-[#454545] rounded-md bg-black text-white "
+                    className="px-2 py-1 text-xs flex gap-1 items-center hover:bg-[#454545]  dark:bg-white dark:text-black rounded-md bg-black text-white "
                   >
-                    <img src="./icon/globe.svg" alt="" className="h-3" />{" "}
+                    <img
+                      src={theme ? "./icon/globe-dark.svg" : "./icon/globe.svg"}
+                      alt=""
+                      className="h-3"
+                    />{" "}
                     Website
                   </a>
                   <a
                     href={list.githubLink}
                     target="_blank"
-                    className="px-2 py-1 text-xs flex gap-1 items-center rounded-md hover:bg-[#454545]  bg-black text-white "
+                    className="px-2 py-1 text-xs flex gap-1 items-center rounded-md hover:bg-[#454545]  dark:bg-white dark:text-black  bg-black text-white "
                   >
                     <img
-                      src="./icon/github-white.svg"
+                      src={
+                        theme ? "./icon/github.svg" : "./icon/github-white.svg"
+                      }
                       alt=""
                       className="h-3 "
                     />{" "}
