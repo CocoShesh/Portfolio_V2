@@ -1,12 +1,13 @@
 import { Navlinks, SocialLinks } from "./icons";
 import { useTheme } from "../../Context/ThemeContext";
+
 const Navbar = () => {
   const { handleChangeTheme, theme } = useTheme();
 
   return (
     <>
       <section className="w-fit  flex    px-5 h-14 border shadow-custom rounded-full fixed  bottom-5 bg-white">
-        <section className="flex border-r-2 pr-1">
+        <section className="flex border-r-2 dark:border-r-[#cccaca] pr-1">
           {Navlinks.map(link => (
             <section key={link.title} className="flex  py-1">
               <a href={link.link}>
@@ -20,7 +21,7 @@ const Navbar = () => {
             </section>
           ))}
         </section>
-        <section className="flex  border-r-2 px-1">
+        <section className="flex  border-r-2 dark:border-r-[#cccaca] px-1">
           {SocialLinks.map(link => (
             <section key={link.title} className="flex  py-1">
               <a href={link.link} target="_blank">
