@@ -7,7 +7,7 @@ const Contacts = () => {
         id="contacts"
         className="mt-16  text-center pb-64 text-sm max-sm:text-xs"
       >
-        <span className=" bg-black text-white px-3 py-1 rounded-md  mb-1">
+        <span className=" bg-black text-white dark:text-black dark:bg-white px-3 py-1 rounded-md  mb-1">
           Contacts{" "}
         </span>
         <h1 className="text-5xl font-semibold mt-3">Get in Touch</h1>
