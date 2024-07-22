@@ -1,5 +1,8 @@
 import { Navlinks, SocialLinks } from "./icons";
+import { useTheme } from "../../Context/ThemeContext";
 const Navbar = () => {
+  const { handleChangeTheme, theme } = useTheme();
+
   return (
     <>
       <section className="w-fit  flex    px-5 h-14 border shadow-custom rounded-full fixed  bottom-5 bg-white">
@@ -29,8 +32,15 @@ const Navbar = () => {
           ))}
         </section>
         <section className="flex pl-3   py-1">
-          <section className="rounded-full h-full w-full flex items-center justify-center cursor-pointer px-2  hover:bg-[#f5f5f5] hover:scale-110 ">
-            <img src="./icon/sun.svg" alt="" className="h-5" />{" "}
+          <section
+            onClick={handleChangeTheme}
+            className="rounded-full h-full w-full flex items-center justify-center cursor-pointer px-2  hover:bg-[#f5f5f5] hover:scale-110 "
+          >
+            <img
+              src={theme ? "./icon/sun.svg" : "./icon/moon-star.svg"}
+              alt=""
+              className="h-5"
+            />{" "}
           </section>
         </section>
       </section>
