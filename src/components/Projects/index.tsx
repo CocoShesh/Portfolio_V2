@@ -5,7 +5,7 @@ const Projects = () => {
     <>
       <section
         id="projects"
-        className="mt-16  text-center pb-32 text-sm max-sm:text-xs"
+        className="mt-16  text-center text-sm max-sm:text-xs"
       >
         <span className=" bg-black text-white px-3 py-1 rounded-md  mb-1">
           My Projects{" "}
