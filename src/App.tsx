@@ -6,7 +6,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import TechStack from "./components/TechStack";
-import WorkExp from "./components/WorkExp";
+import WorkExposure from "./components/WorkExp";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <section className="w-[650px] h-full flex flex-col    ">
           <Hero />
           <About />
-          <WorkExp />
+          <WorkExposure />
           <Education />
           <TechStack />
           <Projects />
