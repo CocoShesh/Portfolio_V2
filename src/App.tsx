@@ -10,8 +10,8 @@ import WorkExp from "./components/WorkExp";
 function App() {
   return (
     <>
-      <main className="w-full h-screen select-none    flex items-center justify-center">
-        <section className="w-[650px] max-md:px-5 h-full flex flex-col">
+      <main className="w-full h-screen select-none  max-md:px-5    flex items-center justify-center">
+        <section className="w-[650px] h-full flex flex-col">
           <Hero />
           <About />
           <WorkExp />
