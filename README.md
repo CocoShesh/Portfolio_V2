@@ -10,12 +10,12 @@ A minimalistic portfolio showcasing my work experience, tech stack, and personal
 
 ## Features
 
-- **Hero Section**: Captivating introduction with a strong visual impact.
-- **About Section**: A brief summary of my background, skills, and interests.
-- **Work Section**: Details of my professional experience and significant achievements.
-- **Education Section**: My academic journey and certifications.
-- **Projects Section**: A showcase of my personal and collaborative projects.
-- **Contact Section**: Easy ways to get in touch with me.
-- **Blog**: Insights and articles on topics I am passionate about.
+- **Hero Section**
+- **About Section**.
+- **Work Section**
+- **Education Section**
+- **Projects Section**
+- **Contact Section**
+  
 
 
