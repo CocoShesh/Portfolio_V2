@@ -27,7 +27,14 @@ export const projects: ProjectData[] = [
     src: "/Preview/Car-Rental-Preview.jpg",
     descriptions:
       "Discover the latest releases and timeless classics. Get ready to embark on thrilling journeys and experience gaming like never before. Start exploring and elevate your gaming experience today!",
-    techStack: ["React Js", "Tailwind Css"],
+    techStack: [
+      "React Js",
+      "Tailwind Css",
+      "AntDesign",
+      "AOS",
+      "Zod",
+      "React Router Dom",
+    ],
   },
   {
     id: 3,
@@ -94,7 +101,13 @@ export const projects: ProjectData[] = [
     src: "/Preview/County_App_Preview.png",
     descriptions:
       "Build a user-friendly IP Address Tracker web app using React Js, integrating the IP Geolocation API by IPify and LeafletJS for interactive map functionality, ensuring seamless user experience across devices. ",
-    techStack: ["React Js", "Tailwind Css", "Lazy loading"],
+    techStack: [
+      "React Js",
+      "Tailwind Css",
+      "Lazy loading",
+      "React Router Dom",
+      "React Icons",
+    ],
   },
   {
     id: 9,
@@ -134,7 +147,14 @@ export const projects: ProjectData[] = [
     src: "/Preview/Game-App-Preview.png",
     descriptions:
       "Discover the latest releases and timeless classics. Get ready to embark on thrilling journeys and experience gaming like never before. Start exploring and elevate your gaming experience today!",
-    techStack: ["React Js", "Tailwind Css"],
+    techStack: [
+      "React Js",
+      "Tailwind Css",
+      "React Swiper",
+      "React Icons",
+      "AOS",
+      "AntDesign",
+    ],
   },
   {
     id: 13,
