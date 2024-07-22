@@ -1,7 +1,7 @@
 import { Work } from "./data";
 import { useState } from "react";
 
-const WorkExperience = () => {
+const WorkExposure = () => {
   const [isHovered, setIsHovered] = useState<number | null>(null);
   const [selectedId, setSelectedId] = useState<number | null>(null);
 
@@ -12,7 +12,7 @@ const WorkExperience = () => {
   return (
     <>
       <section id="work" className="mt-10 text-sm max-sm:text-xs">
-        <h3 className="font-bold text-2xl mb-1"> Work Experience</h3>
+        <h3 className="font-bold text-2xl mb-1"> Work Exposure</h3>
         {Work.map(exp => {
           return (
             <section
@@ -70,4 +70,4 @@ const WorkExperience = () => {
   );
 };
 
-export default WorkExperience;
+export default WorkExposure;
