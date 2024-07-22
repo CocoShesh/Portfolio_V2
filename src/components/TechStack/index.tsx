@@ -3,7 +3,7 @@ import { TechStackData } from "./data";
 const TechStack = () => {
   return (
     <>
-      <section className="mt-10  text-sm max-sm:text-xs">
+      <section id="TechStack" className="mt-10  text-sm max-sm:text-xs">
         <h3 className="font-bold text-2xl mb-1"> Tech Stack</h3>
         <section className="flex  flex-wrap gap-3 mt-5">
           {TechStackData.map((tech, index) => (
