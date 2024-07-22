@@ -5,11 +5,11 @@ const About = () => {
         <h3 className="font-bold text-2xl mb-1"> About</h3>
         <p className="text-[#8a8a8a]">
           As a graduate of a {""}
-          <span className="text-[#424853] font-semibold underline">
+          <span className="text-[#424853] dark:text-white font-semibold underline">
             Bachelor of Science in Information Technology (BSIT),
           </span>{" "}
           {""}I am deeply passionate about
-          <span className="text-[#424853] font-semibold underline">
+          <span className="text-[#424853] dark:text-white font-semibold underline">
             {" "}
             web development{" "}
           </span>
@@ -17,15 +17,15 @@ const About = () => {
           develop my skills in a professional environment. With a solid
           foundation nurtured through academic coursework and self-directed
           learning from diverse resources, such as
-          <span className="text-[#424853] font-semibold underline">
+          <span className="text-[#424853] dark:text-white font-semibold underline">
             {" "}
             YouTube videos,
           </span>{" "}
-          <span className="text-[#424853] font-semibold underline">
+          <span className="text-[#424853] dark:text-white font-semibold underline">
             tutorials
           </span>
           , and
-          <span className="text-[#424853] font-semibold underline">
+          <span className="text-[#424853] dark:text-white font-semibold underline">
             {" "}
             documentation,
           </span>{" "}
@@ -34,11 +34,11 @@ const About = () => {
         </p>
         <p className="text-[#8a8a8a] mt-3">
           Driven by curiosity and a hunger for{" "}
-          <span className="text-[#424853] font-semibold underline">
+          <span className="text-[#424853]  dark:text-white font-semibold underline">
             hands-on experience,
           </span>{" "}
           I am enthusiastic about applying my knowledge to{" "}
-          <span className="text-[#424853] font-semibold underline">
+          <span className="text-[#424853] dark:text-white font-semibold underline">
             real-world projects
           </span>{" "}
           and collaborating with experienced professionals. My goal is not only
