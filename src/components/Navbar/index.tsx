@@ -2,7 +2,7 @@ import { Navlinks, SocialLinks } from "./icons";
 const Navbar = () => {
   return (
     <>
-      <section className="w-fit  flex   px-5 h-14 border shadow-lg rounded-full fixed  bottom-5 bg-white">
+      <section className="w-fit  flex    px-5 h-14 border shadow-custom rounded-full fixed  bottom-5 bg-white">
         <section className="flex border-r-2 pr-1">
           {Navlinks.map(link => (
             <section key={link.title} className="flex  py-1">
