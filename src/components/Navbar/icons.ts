@@ -23,7 +23,12 @@ export const Navlinks: Link[] = [
   {
     title: "Skills",
     src: "./icon/pencil-line.svg",
-    link: "#skills",
+    link: "#TechStack",
+  },
+  {
+    title: "Projects",
+    src: "./icon/layers.svg",
+    link: "#projects",
   },
 ];
 
