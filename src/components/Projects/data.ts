@@ -11,12 +11,12 @@ interface ProjectData {
 export const projects: ProjectData[] = [
   {
     id: 1,
-    title: "Furniture Shop",
+    title: "Furnicraft",
     liveLink: "https://furnicraft-v1.netlify.app/",
     githubLink: "https://github.com/CocoShesh/FurniCraft",
     src: "/Preview/Furniture-Preview.png",
     descriptions:
-      " A virtual furniture shop providing an extensive collection of  handcrafted furniture pieces, blending modern aesthetics withmtimeless craftsmanship. Immerse yourself in a world of quality and comfort, where each piece reflects our commitment to exceptional design and functionality.",
+      "A virtual shop offering a diverse range of high-quality furniture, skincare products, electronics, and kitchen essentials all in one place. Our curated selection blends style and functionality to enhance your lifestyle and make shopping effortless.",
     techStack: ["React Js", "Tailwind Css"],
   },
   {
@@ -26,15 +26,8 @@ export const projects: ProjectData[] = [
     githubLink: "https://github.com/CocoShesh/Car-Rental-App ",
     src: "/Preview/Car-Rental-Preview.jpg",
     descriptions:
-      "Discover the latest releases and timeless classics. Get ready to embark on thrilling journeys and experience gaming like never before. Start exploring and elevate your gaming experience today!",
-    techStack: [
-      "React Js",
-      "Tailwind Css",
-      "AntDesign",
-      "AOS",
-      "Zod",
-      "React Router Dom",
-    ],
+      "Discover seamless mobility with our car rental service. Choose from a variety of high-quality vehicles to suit your needs and enjoy a smooth, convenient driving experience wherever you go.",
+    techStack: ["React Js", "Tailwind Css"],
   },
   {
     id: 3,
@@ -74,14 +67,7 @@ export const projects: ProjectData[] = [
     src: "/Preview/Weather-Preview.png",
     descriptions:
       "My weather app, utilizing weatherapi.com, provides current weather and weekly forecasts. offering toggling between Celsius and Fahrenheit, alongside a dark mode option for comfortable viewing in any lighting. ",
-    techStack: [
-      "React Js",
-      "Tailwind Css",
-      "Api",
-      "Axios",
-      "Dotenv",
-      "React Hot Toast",
-    ],
+    techStack: ["React Js", "Tailwind Css", "Api"],
   },
   {
     id: 7,
@@ -101,13 +87,7 @@ export const projects: ProjectData[] = [
     src: "/Preview/County_App_Preview.png",
     descriptions:
       "Build a user-friendly IP Address Tracker web app using React Js, integrating the IP Geolocation API by IPify and LeafletJS for interactive map functionality, ensuring seamless user experience across devices. ",
-    techStack: [
-      "React Js",
-      "Tailwind Css",
-      "Lazy loading",
-      "React Router Dom",
-      "React Icons",
-    ],
+    techStack: ["React Js", "Tailwind Css", "Lazy loading"],
   },
   {
     id: 9,
@@ -147,14 +127,7 @@ export const projects: ProjectData[] = [
     src: "/Preview/Game-App-Preview.png",
     descriptions:
       "Discover the latest releases and timeless classics. Get ready to embark on thrilling journeys and experience gaming like never before. Start exploring and elevate your gaming experience today!",
-    techStack: [
-      "React Js",
-      "Tailwind Css",
-      "React Swiper",
-      "React Icons",
-      "AOS",
-      "AntDesign",
-    ],
+    techStack: ["React Js", "Tailwind Css"],
   },
   {
     id: 13,
